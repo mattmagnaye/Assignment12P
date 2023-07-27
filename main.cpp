@@ -178,7 +178,7 @@ void ConcatTest()
     for (int i = 0; i < 4; i++)
     {
         cout << s2[i] << " += " << s2[i + 1] << " = ";
-        cout << (s2[i] += s2[i + 1]) << " and";
+        cout << (s2[i] += s2[i + 1]) << "and";
         cout << s2[i] << endl;
     }
 
